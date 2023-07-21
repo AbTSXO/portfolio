@@ -1,0 +1,73 @@
+<!DocumentType html>
+<html lang="en">
+<head>
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap">
+
+    <link  rel="stylesheet" type="text/css" href="style.css">
+    
+    <link  rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="javascript"  href="app.js"/>
+    <title>Personal portfolio</title>  
+</head>
+<body>
+<header>
+    <a href="#" class="logo">ABEXO</a>
+    <nav class="navbar">
+        <a class="page-links active"  href="#">Home</a>
+        <a class="page-links" href="work.html" >Work</a>
+        <a class="page-links" href="newabout.html" >Bio</a></li>
+        <a class="page-links" href="contact.html">Contact</a></li>
+        <a class="page-links" href="https://github.com/AbTSXO/web_lab">Getting started</a>
+    </nav> 
+
+</header>
+
+
+<section class="introduction">
+    <div class="home-container">
+        <h3 class="greetings">Hello,Ready to take the adventure with me</h3>
+        <h1 class="name-display">Abenezer Ashenafi</h1>
+        <h3 class="description-display">And I'm a <span class="text-changer">Frontend Developer</span></h3>
+        <p class="detail-display" >
+            "Meet Abenezer Ashenafi, a boundless wellspring of creativity, 
+             With an insatiable zest for life,  
+            embodies a harmonious blend of artistic ingenuity and an unwavering love for the natural world, 
+            an individual whose spirit dances amidst the vibrant hues of both the human spirit and the emerald wonders of nature."</p>
+    
+    <div class="icon-holder">
+        <a href="#" class="icons"><i class='bx bxl-facebook-square'></i></a>
+        <a href="https://github.com/AbTSXO" class="icons"><i class='bx bxl-github'></i></a>
+        <a href="https://twitter.com/abenezer38479" class="icons"><i class='bx bxl-twitter'></i></a>
+        <a href="https://www.youtube.com/channel/UCUn7d3mWXl0kemi9hxx65bQ" class="icons"><i class='bx bxl-youtube' ></i></a>  
+    </div>
+
+</div>
+<div class="image-holder-home">
+    <img onmouseover="changeOpacity(this, 0.4)" onmouseout="changeOpacity(this, 1)" class="imgo" src="Asset/home2.png" alt="picture of Abenezer Ashenafi" height="600vh" width="600vw" onmouseover="myFunction()">
+    
+</div>
+</section>
+<script>
+    const border = document.getElementsByClassName('.image-holder-home');
+    function changeOpacity(element, opacity) {
+      element.style.opacity = opacity; 
+
+    } 
+    
+</script>
+</div>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+</body>
+
+
+
+</html>
