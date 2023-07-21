@@ -1,6 +1,6 @@
 # Portfolio Project Readme
 
-![Portfolio Project Banner](D:\portfolio\Asset\home2.png)
+![Portfolio Project Banner](https://github.com/AbTSXO/portfolio/blob/main/Asset/home2.png)
 
 Welcome to my Portfolio Project! This project showcases my skills in HTML, CSS, and JavaScript, featuring a plethora of captivating CSS animations and unique AI-generated images created by Geni AI. Below, you will find a brief overview of the project and instructions on how to set it up and explore my work.
 
